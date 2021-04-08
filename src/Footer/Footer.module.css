@@ -1,0 +1,22 @@
+.footerBlock {
+    background-color: #9353b5;
+}
+
+.footerContainer {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.content  {
+
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title {
+    background-color: #d06533;
+}
