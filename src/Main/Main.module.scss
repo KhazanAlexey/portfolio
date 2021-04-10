@@ -1,0 +1,38 @@
+.mainBlock {
+  min-height: 100vh;
+  background-color: antiquewhite;
+
+  .text {
+    width: 300px;
+    background-color: aliceblue;
+
+    & h1 {
+
+      font-size: 2rem;
+      line-height: 3rem;
+      font-weight: 700;
+
+      & span {
+        all: inherit;
+        color: #037fff;
+      }
+    }
+
+    & p {
+      font-size: 1.25rem;
+      line-height: 2rem;
+    }
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    border: 1px solid;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+}
+
+

@@ -1,0 +1,55 @@
+@import "./src/common/styles/sass/variables";
+.title {
+    margin-bottom: 30px;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        top: auto;
+        bottom: -30px;
+        height: 5px;
+        border-radius: 100px;
+        width: 100px;
+        background: $colorTitle;
+        left: 50%;
+        margin-left: -50px;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        top: auto;
+        bottom: -30px;
+        height: 5px;
+        border-radius: 100px;
+        width: 40px;
+        background: $primaryColor;
+        left: 50%;
+        margin-left: -50px;
+
+    }
+
+
+    & h2 {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: Nunito, sans-serif;
+        color: $colorTitle;
+        margin: 0;
+
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+

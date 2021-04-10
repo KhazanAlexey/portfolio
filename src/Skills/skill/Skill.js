@@ -1,8 +1,9 @@
-import style from "./Skill.module.css"
+import style from "./Skill.module.scss"
 
 export const Skill = (props) => {
     return <div className={style.skill}>
-        <div className={style.icon}> icon</div>
+        <div style={props.style} className={style.icon}>
+            </div>
         <h3>{props.title}</h3>
         <span className={style.discription}>disription {props.discription}</span>
     </div>
