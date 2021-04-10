@@ -5,8 +5,8 @@ export const Main=()=>{
     return <div className={style.mainBlock}>
         <div className={styleContainer.container}>
             <div className={style.text}>
-                <span>Hi there</span>
-                <h1>  I am Alexey  </h1>
+                <h1> Hi, I am
+                <span> Alexey Khazan </span>  </h1>
                 <p>Привет меня заоут Алексей и ту главцн тсста ктоырй я пришуь жто дв</p>
 
             </div>

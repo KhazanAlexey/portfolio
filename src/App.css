@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #a4acc4;
+    font-family: Nunito,sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    font-size: 18px;
+}
+h2{font-family: Nunito,sans-serif;
+color: #fff;
+
+    font-size: 2.57rem;
+
+}
+h3{
+    font-weight: 700;
+    font-size: 1.43rem;
+    line-height: 2.14rem;
+    color: #fff;
+}
+h1{
+
+    font-size: 3.2857rem;
+    line-height: 4rem;
+}

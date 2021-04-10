@@ -1,0 +1,39 @@
+.projectBlock {
+    background-color: #10121b;
+    padding: 100px 0;
+}
+
+.projectContainer {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.projects {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 880px) {
+    .projects {
+        justify-content: center;
+    }
+}
+
+
+.title h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Nunito, sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+

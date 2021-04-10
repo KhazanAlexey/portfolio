@@ -1,22 +1,27 @@
 .footerBlock {
     background-color: #9353b5;
+    min-height: 15vh;
 }
 
 .footerContainer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
+    min-height: 15vh;
+
 }
 
 .content  {
 
-    width: 80%;
+    width: 30%;
     border: 1px solid;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .title {
     background-color: #d06533;
+    padding: 20px;
 }
