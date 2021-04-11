@@ -13,6 +13,7 @@ import tsimg from "../assets/img/ts.svg"
 import axiosimg from "../assets/img/axois.png"
 import gitimg from "../assets/img/git.png"
 import materialimg from "../assets/img/material.png"
+import formimg from "../assets/img/form.png"
 
 export const Skills = () => {
     const js = {
@@ -49,23 +50,27 @@ export const Skills = () => {
     const material = {
         backgroundImage: 'url(' + materialimg + ')',
     };
+   const form = {
+        backgroundImage: 'url(' + formimg + ')',
+    };
 
 
     return <div className={style.skillsBlock}>
         <div className={`${styleContainer.container} ${style.skillsContainer}`}>
             <Title title={"Skills"}/>
             <div className={style.skills}>
-                <Skill style={js} title={'JS'} discription={'oin skills'}/>
-                <Skill style={css} title={'CSS'} discription={'props discriptoin skills'}/>
-                <Skill style={react} title={'React'} discription={'props sss g g g g  skills'}/>
-                <Skill style={html} title={'HTML'} discription={'props sss g g g g  skills'}/>
-                <Skill style={sass} title={'SASS'} discription={'props sss g g g g  skills'}/>
-                <Skill style={redux} title={'Redux'} discription={'props sss g g g g  skills'}/>
-                <Skill style={storybook} title={'StoryBook'} discription={'props sss g g g g  skills'}/>
-                <Skill style={ts} title={'TypeScript'} discription={'props sss g g g g  skills'}/>
-                <Skill style={axios} title={'Axios'} discription={'props sss g g g g  skills'}/>
-                <Skill style={git} title={'Git'} discription={'props sss g g g g  skills'}/>
-                <Skill style={material} title={'Material-UI'} discription={'props sss g g g g  skills'}/>
+                <Skill style={js} title={'JS'} discription={''}/>
+                <Skill style={css} title={'CSS'} discription={''}/>
+                <Skill style={react} title={'React'} discription={''}/>
+                <Skill style={html} title={'HTML'} discription={''}/>
+                <Skill style={sass} title={'SASS'} discription={''}/>
+                <Skill style={redux} title={'Redux'} discription={''}/>
+                <Skill style={storybook} title={'StoryBook'} discription={''}/>
+                <Skill style={ts} title={'TypeScript'} discription={''}/>
+                <Skill style={axios} title={'Axios'} discription={''}/>
+                <Skill style={git} title={'Git'} discription={''}/>
+                <Skill style={material} title={'Material-UI'} discription={''}/>
+                <Skill style={form} title={'Redux-form'} discription={''}/>
 
 
             </div>

@@ -1,20 +1,23 @@
-.skill{
+.skill {
 
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 20px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
 
-    .icon{
-        width: 60px;
-        height: 60px;
-        background-size: cover
-    }
-    .discription{
-        word-wrap: break-word;
-    }
+
+
+  .icon {
+    width: 60px;
+    height: 60px;
+    background-size: cover
+  }
+
+  .discription {
+    word-wrap: break-word;
+  }
 
 }

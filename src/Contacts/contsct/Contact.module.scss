@@ -1,0 +1,67 @@
+@import "./src/common/styles/sass/variables";
+
+.miContactInfoblock {
+
+  margin-top: 30px;
+  background: $bgColor;
+  padding: 30px;
+  display: flex;
+  width: 80%;
+  margin-left: 30px;
+  position: relative;
+  &::after {
+    background-color: rgba(50, 50, 50, 0.7);
+    opacity: 0.7;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+  }
+  &:hover{
+    z-index: 0;
+  }
+
+
+
+  @media screen and (max-width: 1022px) {
+    flex-direction: column;
+  }
+
+
+
+  .miContactInfoblockIcon {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    flex: 0 0 70px;
+    max-width: 70px;
+    border: 1px solid #2e344e;
+    text-align: center;
+    line-height: 66px;
+    margin-right: 20px;
+
+  }
+
+  .miContactInfoblockContent {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+
+    h6 {
+      margin-top: -5px;
+    }
+
+    p {
+      a:hover {
+        color: $bgButtonColorHover;
+      }
+    }
+
+  }
+
+}

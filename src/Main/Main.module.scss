@@ -6,19 +6,19 @@
     width: 300px;
     background-color: aliceblue;
 
-    & h1 {
+     h1 {
 
       font-size: 2rem;
       line-height: 3rem;
       font-weight: 700;
 
-      & span {
+       span {
         all: inherit;
         color: #037fff;
       }
     }
 
-    & p {
+     p {
       font-size: 1.25rem;
       line-height: 2rem;
     }
